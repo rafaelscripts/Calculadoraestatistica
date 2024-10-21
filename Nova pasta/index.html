@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Estatístico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Média, Moda e Mediana</h1>
+        <textarea id="inputData" placeholder="Insira os números separados por vírgula"></textarea>
+        <button onclick="calcular()">Calcular</button>
+        
+        <div id="resultados">
+            <h2>Resultados:</h2>
+            <p id="media">Média: </p>
+            <p id="moda">Moda: </p>
+            <p id="mediana">Mediana: </p>
+        </div>
+        
+        <!-- Gráfico do Google Forms -->
+        <div id="grafico">
+            <h2>Gráfico dos Resultados</h2>
+            <iframe src="" width="600" height="400"></iframe>
+        </div>
+    </div>
+    
+    <footer>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9681NAmBPMgJdDx8wdUma_3n0r9-s9zdfvrZl_9_Q3r8IlA/viewform?embedded=true" width="640" height="1864" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <button onclick="reiniciar()">Reiniciar</button>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9681NAmBPMgJdDx8wdUma_3n0r9-s9zdfvrZl_9_Q3r8IlA/viewanalytics">  <button onclick="ajuda()">Ajuda</button></a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
