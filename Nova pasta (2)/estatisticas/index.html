@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body class="body">  
+
+    <div class="café">
+        <img src="assets/cafe.jpg" alt="café">
+    </div>
+
+     <form class="inputs">
+        <h2>Gostam de Café?</h2><br>
+
+        <label for="Cafe">Quantas pessoas gostam de café?</label><br>
+        <input type="number" name="Cafe" id="cafe"><br><br>
+
+        <label for="Nao">Quantas pessoas NÃO gostam de café?</label><br>
+        <input type="number" name="Nao" id="nao"><br><br><br><br>
+
+
+        <h2>Tipos de Café</h2><br>
+
+        <label for="Tipo1">Quantas pessoas gostam de café preto?</label><br>
+        <input type="number" name="Tipo1" id="tipo1"><br><br>
+
+        <label for="Tipo2">Quantas pessoas gostam de café com leite?</label><br>
+        <input type="number" name="Tipo2" id="tipo2"><br><br>
+
+        <label for="Tipo3">Quantas pessoas gostam de cappucino?</label><br>
+        <input type="number" name="Tipo3" id="tipo3"><br><br>
+
+        <label for="Tipo4">Quantas pessoas gostam de café expresso?</label><br>
+        <input type="number" name="Tipo4" id="tipo4"><br><br><br><br>
+
+
+        <h2>Temperatura do Café</h2><br>
+
+        <label for="Gelado">Quantas pessoas preferem café gelado?</label><br>
+        <input type="number" name="Gelado" id="gelado"><br><br>
+
+        <label for="Quente">Quantas pessoas preferem café quente?</label><br>
+        <input type="number" name="Quente" id="quente"><br><br>
+
+        <label for="Morno">Quantas pessoas preferem café morno?</label><br>
+        <input type="number" name="Morno" id="morno"><br><br><br><br>
+
+
+        <h2>Recipiente do Café</h2><br>
+
+        <label for="Xicara">Quantas tomam na xícara?</label><br>
+        <input type="number" name="Xicara" id="xicara"><br><br>
+
+        <label for="copoD">Quantas tomam no copo descartável?</label><br>
+        <input type="number" name="copoD" id="copod"><br><br>
+
+        <label for="copoA">Quantas tomam no copo americano?</label><br>
+        <input type="number" name="copoA" id="copoa"><br><br>
+
+        <label for="copoS">Quantas tomam no copo sustentável?</label><br>
+        <input type="number" name="copoS" id="copos"><br><br><br><br>
+
+        
+        <h2>Quantidade por dia</h2><br>
+
+        <label for="Pouca">Quantas tomam uma vez no dia?</label><br>
+        <input type="number" name="Pouca" id="pouca"><br><br>
+
+        <label for="Normal">Quantas tomam duas vezes no dia?</label><br>
+        <input type="number" name="Normal" id="normal"><br><br>
+
+        <label for="Bastante">Quantas tomam de três a quatros vezes?</label><br>
+        <input type="number" name="Bastante" id="bastante"><br><br>
+
+        <label for="Extre">Quantas tomam cinco ou mais vezes?</label><br>
+        <input type="number" name="Extre" id="extre"><br><br><br><br>
+
+
+        <h2>Aonde você toma/faz seu café?</h2><br>
+
+        <label for="Casa">Quantas fazem em casa?</label><br>
+        <input type="number" name="Casa" id="casa"><br><br>
+
+        <label for="Trabalho">Quantas tomam no trabalho?</label><br>
+        <input type="number" name="Trabalho" id="trabalho"><br><br>
+
+        <label for="Estab">Quantas compram em um estabelecimento</label><br>
+        <input type="number" name="Estab" id="estab"><br><br>
+
+        <label for="Alguem">Quantas pedem para alguém fazer?</label><br>
+        <input type="number" name="Alguem" id="alguem"><br><br>
+     </form>
+
+    <form action="dados.html">
+        <input type="submit" value="Ir para Dados" class="botao" pys-onClick="test">
+    </form>
+
+    <py-script src="scripts/main.py">
+
+    </py-script>
+</body>
+</html>
